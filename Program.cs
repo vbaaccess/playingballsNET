@@ -8,6 +8,7 @@ namespace playingballsNET
         static void Main(string[] args)
         {
             Console.WriteLine("Hello in Game!");                        //abaut game
+            Console.WriteLine("configure repo on github");              //TO DO
             Console.WriteLine("1.1) select paramieters");               //TO DO
             Console.WriteLine("1.2) start game");
             Console.WriteLine("1.3) exit game");
