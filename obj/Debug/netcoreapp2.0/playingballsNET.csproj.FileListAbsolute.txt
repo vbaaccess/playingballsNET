@@ -1,0 +1,10 @@
+C:\Users\pawel\Documents\Nauka_CSharp\playingballsNET\bin\Debug\netcoreapp2.0\playingballsNET.deps.json
+C:\Users\pawel\Documents\Nauka_CSharp\playingballsNET\bin\Debug\netcoreapp2.0\playingballsNET.runtimeconfig.json
+C:\Users\pawel\Documents\Nauka_CSharp\playingballsNET\bin\Debug\netcoreapp2.0\playingballsNET.runtimeconfig.dev.json
+C:\Users\pawel\Documents\Nauka_CSharp\playingballsNET\bin\Debug\netcoreapp2.0\playingballsNET.dll
+C:\Users\pawel\Documents\Nauka_CSharp\playingballsNET\bin\Debug\netcoreapp2.0\playingballsNET.pdb
+C:\Users\pawel\Documents\Nauka_CSharp\playingballsNET\obj\Debug\netcoreapp2.0\playingballsNET.csproj.CoreCompileInputs.cache
+C:\Users\pawel\Documents\Nauka_CSharp\playingballsNET\obj\Debug\netcoreapp2.0\playingballsNET.AssemblyInfoInputs.cache
+C:\Users\pawel\Documents\Nauka_CSharp\playingballsNET\obj\Debug\netcoreapp2.0\playingballsNET.AssemblyInfo.cs
+C:\Users\pawel\Documents\Nauka_CSharp\playingballsNET\obj\Debug\netcoreapp2.0\playingballsNET.dll
+C:\Users\pawel\Documents\Nauka_CSharp\playingballsNET\obj\Debug\netcoreapp2.0\playingballsNET.pdb
