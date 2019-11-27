@@ -1,0 +1,2 @@
+CREATE VIEW vWyniki AS
+SELECT TOP 10 * FROM tWyniki ORDER BY Score Desc
