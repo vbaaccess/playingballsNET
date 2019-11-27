@@ -1,0 +1,5 @@
+dotnet run
+dotnet restore
+dotnet build
+
+dotnet add package System.Data.SqlClient
