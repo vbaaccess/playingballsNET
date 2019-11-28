@@ -1,3 +1,5 @@
+dotnet new console
+
 dotnet run
 dotnet restore
 dotnet build
