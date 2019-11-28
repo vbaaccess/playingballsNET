@@ -1,6 +1,6 @@
-dotnet new console
+dotnet new console - tworzenie szablonu "Console Application"
 
-dotnet run
+dotnet run         - uruchomienie kodu
 dotnet restore
 dotnet build
 
