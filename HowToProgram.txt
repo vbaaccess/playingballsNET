@@ -10,3 +10,8 @@ dotnet add package System.Data.SqlClient
 git rm -r --cached <foldername>
 git commit -m "Reason of remove"
 git push origin master
+
+--- add new unionpackage, call from terminal
+    dotnet add package
+np. dotnet add package System.Data.SqlClient
+np. dotnet add package System.Threading
