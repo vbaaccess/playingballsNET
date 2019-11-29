@@ -5,3 +5,8 @@ dotnet restore
 dotnet build
 
 dotnet add package System.Data.SqlClient
+
+-- remove folder from remot repo ---
+git rm -r --cached <foldername>
+git commit -m "Reason of remove"
+git push origin master
