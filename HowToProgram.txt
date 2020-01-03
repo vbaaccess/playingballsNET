@@ -15,3 +15,6 @@ git push origin master
     dotnet add package
 np. dotnet add package System.Data.SqlClient
 np. dotnet add package System.Threading
+
+
+dotnet restore plikprojektu.csproj (np. gra.csproj)
