@@ -18,3 +18,15 @@ np. dotnet add package System.Threading
 
 
 dotnet restore plikprojektu.csproj (np. gra.csproj)
+
+
+dumpbin /expors c:\uesr32.dll - show long list function name from dll
+- - - - - - -
+
+    <Content Include="SurInfoConst2020.cs" />
+    <Content Include="SurInfoConst.cs" />
+
+
+--- TO DO ---
+- odtwrzanie dzwieku z plikow wav z konsoli
+  ewneutualnie odtwarzeanie dzwiekow systemowych
