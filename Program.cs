@@ -18,6 +18,10 @@ namespace playingballsNET
             Console.WriteLine("3.2) move target field");
             Console.WriteLine("3.3) move ball (lewenstain algorytm)");
             Console.WriteLine("3.4) ad point to player");
+            
+            // END after press ENTER
+            Console.WriteLine("\nPRESS ENTER to END");
+            Console.ReadLine();
         }
     }
 }
