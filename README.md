@@ -1,3 +1,5 @@
 # Playing balls .NET game
 
-Ball game - use .NET
+Ball game technical description:
+- use CSharp.NET
+- WPF Visual Stusio 2017 Core
