@@ -7,6 +7,30 @@
         mc:Ignorable="d"
         Title="Playing Balls" Height="450" Width="800">
     <Grid>
-        
+        <!--
+1. Menu
+   O grze
+   Wyniki
+   Nowa gra
+   Poziom trudności
+2. Dolny pasek
+   Nr ruchu
+   Data , godz
+   Pozycja jeśli w w top10
+   Poziom trudności
+   Bonusy
+3. UI - Punkty
+4. UI - Kolejne kulki
+5. UI - Pole z puktami
+
+Klasy:
+Najkrótsza droga kulki
+Zapis wyników
+Losowanie kulek
+Rozmieszczanie kulek
+Klasa-rozgrywka
+Klasa-poziom trudności
+Klasa-wyniki
+--!>
     </Grid>
 </Window>
