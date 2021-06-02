@@ -27,6 +27,11 @@ Klasa-rozgrywka
 Klasa-poziom trudności
 Klasa-wyniki
             </TextBlock>
+            <WrapPanel>
+                <local:UserControlBal Padding="10"/>
+                <local:UserControlBal Padding="10"/>
+                <local:UserControlBal Padding="10"/>
+            </WrapPanel>
         </UniformGrid>
     </DockPanel>
 </UserControl>
