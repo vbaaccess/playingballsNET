@@ -128,5 +128,11 @@
   <ItemGroup>
     <Resource Include="kulki2.ico" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="gfx_menu_new.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="gfx_menu_Top10_balls.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

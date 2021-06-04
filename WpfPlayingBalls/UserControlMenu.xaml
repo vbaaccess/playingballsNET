@@ -8,14 +8,24 @@
              d:DesignHeight="25" d:DesignWidth="200">
     <Menu>
         <MenuItem Header="Plik">
-            <MenuItem Header="Nowa gra"/>
+            <MenuItem Header="Nowa gra" InputGestureText="CTR+N" Command="New">
+                <MenuItem.Icon>
+                    <Image Source="gfx_menu_new.png" Height="16"/>
+                </MenuItem.Icon>
+            </MenuItem>
             <Separator/>
-            <MenuItem Header="Zakoncz"/>
+            <MenuItem Header="_Zakoncz" Command="Close"/>
+        </MenuItem>
+        <MenuItem Header="Top 10">
+            <MenuItem.Icon>
+                <Image Source="gfx_menu_Top10_balls.png" Height="16"/>
+            </MenuItem.Icon>
         </MenuItem>
         <MenuItem Header="O Programie">
-            <MenuItem Header="Top 10"/>
+            <MenuItem Command="Help">
+            </MenuItem>
             <Separator/>
-            <MenuItem Header="O Programie"/>
+            <MenuItem Header="O Progr_amie"/>
         </MenuItem>
     </Menu>
 </UserControl>
