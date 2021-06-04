@@ -7,10 +7,9 @@
         mc:Ignorable="d"
         Title="Playing Balls" Height="450" Width="600" MinHeight="450" MinWidth="600" ResizeMode="NoResize"> <!--ResizeMode="NoResize"-->
     <DockPanel>
-        <Label DockPanel.Dock="Top" Height="25" Background="Aqua">
-            Menu: Nowa gra, zamknij, O Programie
-        </Label>
-            <Label DockPanel.Dock="Bottom"  Height="25" Background="RosyBrown" Content="Pasek z informacjami"/>
+        <local:UserControlMenu DockPanel.Dock="Top"></local:UserControlMenu>
+
+        <Label DockPanel.Dock="Bottom"  Height="25" Background="RosyBrown" Content="Pasek z informacjami"/>
         <local:UserControlPanelLewy DockPanel.Dock="Left" Width="100"/>
         <local:UserControlPanelGlowny/>
         
