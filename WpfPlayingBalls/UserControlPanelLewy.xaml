@@ -5,18 +5,22 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:WpfPlayingBalls"
              mc:Ignorable="d" 
-             d:DesignHeight="450" d:DesignWidth="900">
+             d:DesignHeight="300" d:DesignWidth="100">
     <Grid Background="AliceBlue">
-        <Grid.RowDefinitions>
+        <Grid.RowDefinitions >
             <RowDefinition Height="100"/>
-            <RowDefinition/>
-            <RowDefinition/>
+            <RowDefinition Height="100"/>
+            <RowDefinition Height="100"/>
         </Grid.RowDefinitions>
-        <!--<Grid.ColumnDefinitions>
-            <ColumnDefinition Width="100"/>
-        </Grid.ColumnDefinitions>-->
         <Label Margin="5" Background="Beige" FontSize="24" FontWeight="Bold"  HorizontalAlignment="Center" VerticalAlignment="Center" Content="KULKI"/>
-        <!--<TextBlock Grid.Row="0" >KULKI</TextBlock>-->
+        <StackPanel Grid.Row="1"  HorizontalAlignment="Center" VerticalAlignment="Center">
+            <Label BorderBrush="Black" BorderThickness="2" FontWeight="Bold" Padding="10" Width="75" HorizontalAlignment="Center" Content="WYNIK"/>
+            <Label BorderBrush="Black" BorderThickness="2" FontWeight="Bold" Padding="10" Content="000000"/>
+        </StackPanel>
+        <StackPanel Grid.Row="2"  HorizontalAlignment="Center" VerticalAlignment="Center">
+            <Label BorderBrush="Black" BorderThickness="2" FontWeight="Bold" Padding="10" Width="75" HorizontalAlignment="Center" Content="REKORD"/>
+            <Label BorderBrush="Black" BorderThickness="2" FontWeight="Bold" Padding="10" Content="000000"/>
+        </StackPanel>
     </Grid>
 </UserControl>
     
