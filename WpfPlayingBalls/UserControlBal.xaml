@@ -10,7 +10,11 @@
         <Button.Template>
             <ControlTemplate TargetType="{x:Type Button}">
                 <Grid>
-                    <Ellipse Width="100" Height="{Binding Path=ActualWidth, RelativeSource={RelativeSource Self}}" Fill="Aqua"/>
+                    <Ellipse Width="100" 
+                             Height="{Binding Path=ActualWidth, RelativeSource={RelativeSource Self}}" 
+                             Fill="Aqua"
+                             
+                             />
                 </Grid>
             </ControlTemplate>
         </Button.Template> 
