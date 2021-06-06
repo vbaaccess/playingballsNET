@@ -6,6 +6,16 @@
              xmlns:local="clr-namespace:WpfPlayingBalls"
              mc:Ignorable="d" 
              d:DesignHeight="25" d:DesignWidth="200">
+    <UserControl.CommandBindings>
+        <CommandBinding Command="Close"
+                        CanExecute="CommandBindings_CanExecute"
+                        Executed="CommandBindings_Executed"
+                        />
+        <!--<CommandBinding Command="OProgramie"
+                        CanExecute="CommandBindings_OProgramie_CanExecute"
+                        Executed="CommandBindings_OProgramie_Executed"
+                        />-->
+    </UserControl.CommandBindings>
     <Menu>
         <MenuItem Header="Plik">
             <MenuItem Header="Nowa gra" InputGestureText="CTR+N" Command="New">
@@ -22,10 +32,10 @@
             </MenuItem.Icon>
         </MenuItem>
         <MenuItem Header="O Programie">
-            <MenuItem Command="Help">
-            </MenuItem>
+            <MenuItem Command="Help"/>
             <Separator/>
             <MenuItem Header="O Progr_amie"/>
+            <!--<MenuItem Header="O Progr_amie" Command="OProgramie" />-->
         </MenuItem>
     </Menu>
 </UserControl>

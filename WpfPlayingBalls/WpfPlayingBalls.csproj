@@ -70,6 +70,9 @@
     <Compile Include="UserControlPanelLewy.xaml.cs">
       <DependentUpon>UserControlPanelLewy.xaml</DependentUpon>
     </Compile>
+    <Compile Include="WinAbaut.xaml.cs">
+      <DependentUpon>WinAbaut.xaml</DependentUpon>
+    </Compile>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -95,6 +98,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="UserControlPanelLewy.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="WinAbaut.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

@@ -24,5 +24,16 @@ namespace WpfPlayingBalls
         {
             InitializeComponent();
         }
+
+        private void CommandBindings_CanExecute(object sender, CanExecuteRoutedEventArgs e)
+        {
+            e.CanExecute = true;
+        }
+
+        private void CommandBindings_Executed(object sender, ExecutedRoutedEventArgs e)
+        {
+            // TO DO - ask for approval if the game is in progress
+            Application.Current.Shutdown();
+        }
     }
 }

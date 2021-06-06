@@ -1,0 +1,20 @@
+﻿<Window x:Class="WpfPlayingBalls.WinAbaut"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfPlayingBalls"
+        mc:Ignorable="d"
+        Title="O Programie" Height="200" Width="300">
+    <StackPanel>
+        <TextBlock Padding="10" FontSize="30">
+            O programie
+        </TextBlock>
+        <TextBlock Padding="10">
+            Copright 2021 (c)
+        </TextBlock>
+        <TextBlock Padding="10">
+            Gra w kulki
+        </TextBlock>
+    </StackPanel>
+</Window>
