@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<games>
+<game>
+<Name>Kulki</Name>
+<settings>
+<setting>
+    <Lp>1</Lp>
+    <Name>Rozmiar</Name>
+    <Descryption>Ilosc pól planszy</Descryption>
+    <Value>9x9</Value>
+</setting>
+<setting>
+    <Lp>2</Lp>
+    <Name>Kolory/wzory</Name>
+    <Descryption>Ilosc możliwych kolorów przy wylosowaniu</Descryption>
+    <Value>6</Value>
+</setting>
+<setting>
+    <Lp>3</Lp>
+    <Name>Bonusy</Name>
+    <Descryption>Czy mają być aktywne dodatkowe bonusy</Descryption>
+    <Value>0</Value>
+</setting>
+</settings>
+</game>
+</games>
