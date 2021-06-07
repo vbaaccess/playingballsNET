@@ -11,10 +11,6 @@
                         CanExecute="CommandBindings_CanExecute"
                         Executed="CommandBindings_Executed"
                         />
-        <!--<CommandBinding Command="OProgramie"
-                        CanExecute="CommandBindings_OProgramie_CanExecute"
-                        Executed="CommandBindings_OProgramie_Executed"
-                        />-->
     </UserControl.CommandBindings>
     <Menu>
         <MenuItem Header="Plik">
@@ -34,8 +30,8 @@
         <MenuItem Header="O Programie">
             <MenuItem Command="Help"/>
             <Separator/>
-            <MenuItem Header="O Progr_amie"/>
-            <!--<MenuItem Header="O Progr_amie" Command="OProgramie" />-->
+            <!--TO DO - nauczyc sie jak robic wywolanie MenuItem uzywajac Command="MyComand" w UserControl-->
+            <MenuItem Header="O Progr_amie" Click="OProgramie_Click" />
         </MenuItem>
     </Menu>
 </UserControl>

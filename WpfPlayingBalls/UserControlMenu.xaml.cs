@@ -35,5 +35,11 @@ namespace WpfPlayingBalls
             // TO DO - ask for approval if the game is in progress
             Application.Current.Shutdown();
         }
+
+        private void OProgramie_Click(object sender, RoutedEventArgs e)
+        {
+            WinAbaut winAbaut = new WinAbaut();
+            winAbaut.Show();
+        }
     }
 }
