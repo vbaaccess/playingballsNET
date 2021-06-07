@@ -61,6 +61,9 @@
     <Compile Include="UserControlBal.xaml.cs">
       <DependentUpon>UserControlBal.xaml</DependentUpon>
     </Compile>
+    <Compile Include="UserControlGame.xaml.cs">
+      <DependentUpon>UserControlGame.xaml</DependentUpon>
+    </Compile>
     <Compile Include="UserControlMenu.xaml.cs">
       <DependentUpon>UserControlMenu.xaml</DependentUpon>
     </Compile>
@@ -89,6 +92,10 @@
       <SubType>Code</SubType>
     </Compile>
     <Page Include="UserControlBal.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UserControlGame.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

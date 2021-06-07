@@ -11,7 +11,8 @@
 
         <Label DockPanel.Dock="Bottom"  Height="25" Background="RosyBrown" Content="Pasek z informacjami"/>
         <local:UserControlPanelLewy DockPanel.Dock="Left" Width="100"/>
-        <local:UserControlPanelGlowny/>
+        <!--<local:UserControlPanelGlowny/>-->
+        <local:UserControlGame/>
         
     </DockPanel>
 </Window>
