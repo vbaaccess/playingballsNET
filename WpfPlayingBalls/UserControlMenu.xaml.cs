@@ -33,7 +33,8 @@ namespace WpfPlayingBalls
         private void CommandBindings_Executed(object sender, ExecutedRoutedEventArgs e)
         {
             // TO DO - ask for approval if the game is in progress
-            Application.Current.Shutdown();
+            //Application.Current.Shutdown();
+            TheEnd();
         }
 
         private void OProgramie_Click(object sender, RoutedEventArgs e)
@@ -47,5 +48,16 @@ namespace WpfPlayingBalls
             WinTop10 win = new WinTop10();
             win.Show();
         }
+
+        private void TheEnd()
+        {
+            MessageBoxResult MBR = MessageBoxResult.Yes;
+            MBR = MessageBox.Show("Czy napewno chcesz zamknąć program ?", "UWAGA", MessageBoxButton.YesNo, MessageBoxImage.Question);
+
+            if (MBR == MessageBoxResult.Yes)
+                Application.Current.Shutdown();
+
+        }
+
     }
 }
