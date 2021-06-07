@@ -38,8 +38,14 @@ namespace WpfPlayingBalls
 
         private void OProgramie_Click(object sender, RoutedEventArgs e)
         {
-            WinAbaut winAbaut = new WinAbaut();
-            winAbaut.Show();
+            WinAbaut win = new WinAbaut();
+            win.Show();
+        }
+
+        private void Top10_Click(object sender, RoutedEventArgs e)
+        {
+            WinTop10 win = new WinTop10();
+            win.Show();
         }
     }
 }

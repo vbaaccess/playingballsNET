@@ -22,7 +22,7 @@
             <Separator/>
             <MenuItem Header="_Zakoncz" Command="Close"/>
         </MenuItem>
-        <MenuItem Header="Top 10">
+        <MenuItem Header="Top 10" Click="Top10_Click">
             <MenuItem.Icon>
                 <Image Source="gfx_menu_Top10_balls.png" Height="16"/>
             </MenuItem.Icon>

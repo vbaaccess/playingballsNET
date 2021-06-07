@@ -1,0 +1,29 @@
+﻿<Window x:Class="WpfPlayingBalls.WinTop10"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfPlayingBalls"
+        mc:Ignorable="d"
+       Title="Top 10" Height="600" Width="300">
+    <StackPanel>
+        <TextBlock Padding="10" FontSize="30" HorizontalAlignment="Center">
+            Lista Top 10
+        </TextBlock>
+        <TextBlock Padding="10" FontSize="20" HorizontalAlignment="Center" Text="Lp, Nickname, Wynik, Data" />
+
+        <WrapPanel Orientation="Vertical" Margin="10,20,20,10">
+            <Label Padding="10" Content="01 , ..."  />
+            <Label Padding="10" Content="02 , ..."  />
+            <Label Padding="10" Content="03 , ..."  />
+            <Label Padding="10" Content="04 , ..."  />
+            <Label Padding="10" Content="05 , ..."  />
+            <Label Padding="10" Content="06 , ..."  />
+            <Label Padding="10" Content="07 , ..."  />
+            <Label Padding="10" Content="08 , ..."  />
+            <Label Padding="10" Content="09 , ..."  />
+            <Label Padding="10" Content="10 , ..."  />
+        </WrapPanel>
+
+    </StackPanel>
+</Window>
