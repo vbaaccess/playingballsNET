@@ -5,14 +5,14 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:WpfPlayingBalls"
              mc:Ignorable="d" 
-             d:DesignHeight="25" d:DesignWidth="200">
+             d:DesignHeight="20" d:DesignWidth="200" Background="AliceBlue">
     <UserControl.CommandBindings>
         <CommandBinding Command="Close"
                         CanExecute="CommandBindings_CanExecute"
                         Executed="CommandBindings_Executed"
                         />
     </UserControl.CommandBindings>
-    <Menu>
+    <Menu Background="LightSteelBlue">
         <MenuItem Header="Plik">
             <MenuItem Header="Nowa gra" InputGestureText="CTR+N" Command="New">
                 <MenuItem.Icon>

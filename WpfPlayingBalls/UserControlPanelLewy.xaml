@@ -6,13 +6,13 @@
              xmlns:local="clr-namespace:WpfPlayingBalls"
              mc:Ignorable="d" 
              d:DesignHeight="600" d:DesignWidth="100">
-    <Grid Background="AliceBlue">
+    <Grid Background="LightSteelBlue">
         <Grid.RowDefinitions >
             <RowDefinition Height="100"/>
             <RowDefinition Height="100"/>
             <RowDefinition Height="100"/>
         </Grid.RowDefinitions>
-        <Label Margin="5" Background="Beige" FontSize="24" FontWeight="Bold"  HorizontalAlignment="Center" VerticalAlignment="Center" Content="KULKI"/>
+        <Label Background="CornflowerBlue" Margin="5" FontSize="24" FontWeight="Bold"  HorizontalAlignment="Center" VerticalAlignment="Center" Content="KULKI"/>
         <StackPanel Grid.Row="1"  HorizontalAlignment="Center" VerticalAlignment="Center">
             <Label BorderBrush="Black" BorderThickness="2" FontWeight="Bold" Padding="10" Width="75" HorizontalAlignment="Center" Content="WYNIK"/>
             <Label BorderBrush="Black" BorderThickness="2" FontWeight="Bold" Padding="10" Content="000000"/>

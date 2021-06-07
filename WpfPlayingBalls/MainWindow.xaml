@@ -8,8 +8,17 @@
         Title="Playing Balls" Height="450" Width="600" MinHeight="450" MinWidth="600" ResizeMode="NoResize"> <!--ResizeMode="NoResize"-->
     <DockPanel>
         <local:UserControlMenu DockPanel.Dock="Top"></local:UserControlMenu>
+        <Label DockPanel.Dock="Top"    Height="10"   Background="LightSteelBlue" />
 
-        <Label DockPanel.Dock="Bottom"  Height="25" Background="RosyBrown" Content="Pasek z informacjami"/>
+        <Grid DockPanel.Dock="Bottom" Height="30" Background="LightSteelBlue">
+        <Label Content="Copy Right 2021(C)" 
+               VerticalAlignment="Center"
+               HorizontalAlignment="Center"
+               />
+        </Grid>
+        <Label DockPanel.Dock="Right"  Width="25" Background="LightSteelBlue" />
+        
+        
         <local:UserControlPanelLewy DockPanel.Dock="Left" Width="100"/>
         <!--<local:UserControlPanelGlowny/>-->
         <local:UserControlGame/>

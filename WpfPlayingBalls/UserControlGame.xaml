@@ -7,7 +7,7 @@
              mc:Ignorable="d" 
              d:DesignHeight="400" d:DesignWidth="400">
     <Border BorderBrush="DarkBlue" BorderThickness="2">
-    <Grid Background="AntiqueWhite" ShowGridLines="True">
+    <Grid Background="LightBlue" ShowGridLines="True">
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="*" />
             <ColumnDefinition Width="*" />
