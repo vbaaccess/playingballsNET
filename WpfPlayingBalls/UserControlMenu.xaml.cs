@@ -33,7 +33,6 @@ namespace WpfPlayingBalls
         private void CommandBindings_Executed(object sender, ExecutedRoutedEventArgs e)
         {
             // TO DO - ask for approval if the game is in progress
-            //Application.Current.Shutdown();
             TheEnd();
         }
 
@@ -59,5 +58,12 @@ namespace WpfPlayingBalls
 
         }
 
+        private void TEST_Click(object sender, RoutedEventArgs e)
+        {
+            WinNewGameRecord nr = new WinNewGameRecord();
+            string winnerNickName = nr.GetWinnerNickName();
+
+            MessageBox.Show(winnerNickName, "TEST", MessageBoxButton.OK, MessageBoxImage.Asterisk);
+        }
     }
 }

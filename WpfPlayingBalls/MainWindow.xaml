@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfPlayingBalls"
         mc:Ignorable="d"
-        Title="Playing Balls" Height="450" Width="600" MinHeight="450" MinWidth="600" ResizeMode="NoResize"> <!--ResizeMode="NoResize"-->
+        Title="Playing Balls" Height="450" Width="600" MinHeight="450" MinWidth="600" ResizeMode="NoResize" Closing="Window_Closing"> <!--ResizeMode="NoResize"-->
     <DockPanel>
         <local:UserControlMenu DockPanel.Dock="Top"></local:UserControlMenu>
         <Label DockPanel.Dock="Top"    Height="10"   Background="LightSteelBlue" />

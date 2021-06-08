@@ -1,0 +1,22 @@
+﻿<Window x:Class="WpfPlayingBalls.WinNewGameRecord"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfPlayingBalls"
+        mc:Ignorable="d"
+        Height="250" Width="350">
+    <StackPanel>
+        <TextBlock Padding="10" FontSize="30" HorizontalAlignment="Center">
+            Nowy rekord !
+        </TextBlock>
+        <TextBlock Padding="10" HorizontalAlignment="Center">
+            Zdobyles xxx punktow - zajołeś N miejsce na liście Top 10 !
+        </TextBlock>
+        <TextBlock Padding="10">
+            Podaj Nick Name:
+        </TextBlock>
+        <TextBox Name="NickName" Margin="5,5,5,5"/>
+        <Button Content="ZAPISZ" HorizontalAlignment="Center" Width="100" Click="Button_Click" />
+    </StackPanel>
+</Window>

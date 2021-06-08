@@ -76,6 +76,9 @@
     <Compile Include="WinAbaut.xaml.cs">
       <DependentUpon>WinAbaut.xaml</DependentUpon>
     </Compile>
+    <Compile Include="WinNewGameRecord.xaml.cs">
+      <DependentUpon>WinNewGameRecord.xaml</DependentUpon>
+    </Compile>
     <Compile Include="WinTop10.xaml.cs">
       <DependentUpon>WinTop10.xaml</DependentUpon>
     </Compile>
@@ -112,6 +115,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="WinAbaut.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="WinNewGameRecord.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

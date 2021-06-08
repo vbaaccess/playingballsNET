@@ -32,6 +32,7 @@
             <Separator/>
             <!--TO DO - nauczyc sie jak robic wywolanie MenuItem uzywajac Command="MyComand" w UserControl-->
             <MenuItem Header="O Progr_amie" Click="OProgramie_Click" />
+            <!--<MenuItem Header="TEST" Click="TEST_Click" />-->
         </MenuItem>
     </Menu>
 </UserControl>

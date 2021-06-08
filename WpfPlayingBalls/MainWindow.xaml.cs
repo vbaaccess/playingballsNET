@@ -24,5 +24,17 @@ namespace WpfPlayingBalls
         {
             InitializeComponent();
         }
+
+        private void Window_Closing(object sender, System.ComponentModel.CancelEventArgs e)
+        {
+            MessageBoxResult MBR = MessageBoxResult.Yes;
+            MBR = MessageBox.Show("Czy napewno chcesz zamknąć program ?", "UWAGA", MessageBoxButton.YesNo, MessageBoxImage.Question);
+
+            //if (MBR == MessageBoxResult.Yes)
+            //    Application.Current.Shutdown();
+
+            if (MBR == MessageBoxResult.No)
+                e.Cancel = true;
+        }
     }
 }
