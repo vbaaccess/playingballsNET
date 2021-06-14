@@ -58,6 +58,9 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="clsMyScore.cs" />
+    <Compile Include="clsPlayersScores.cs" />
+    <Compile Include="ScoreData.cs" />
     <Compile Include="UserControlBal.xaml.cs">
       <DependentUpon>UserControlBal.xaml</DependentUpon>
     </Compile>

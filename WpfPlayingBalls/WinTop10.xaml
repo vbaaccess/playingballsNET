@@ -5,9 +5,90 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfPlayingBalls"
         mc:Ignorable="d"
-       Title="Top 10" Height="600" Width="300">
+       Title="Top 10" Height="500" Width="500">
     <StackPanel>
-        <TextBlock Padding="10" FontSize="30" HorizontalAlignment="Center">
+        <TextBlock Padding="0" FontSize="30" HorizontalAlignment="Center" Text="Lista Top 10"/>
+        <DataGrid x:Name="ListTop10" 
+                  AutoGenerateColumns="False" 
+                  Height="360" Margin="30,30,30,30"
+                  
+                  HorizontalScrollBarVisibility="Disabled"
+                  VerticalScrollBarVisibility="Disabled"
+                  
+                  CanUserAddRows="False" 
+                  CanUserDeleteRows="False"
+                  CanUserReorderColumns="False"
+                  CanUserResizeColumns="False"
+                  CanUserResizeRows="False"
+                  CanUserSortColumns="False"
+                  
+                  SelectionMode="Single"
+                  SelectionUnit="FullRow"
+                  
+                  FontSize="20"
+                  
+                  AlternatingRowBackground="Azure" AlternationCount="2"
+                  LoadingRow="ListTop10_LoadingRow"
+                  >
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Wynik" Binding="{Binding Path=Score}" SortDirection="Descending" IsReadOnly="True"/>
+                <DataGridTextColumn Header="Nick" Binding="{Binding Path=NickName}" Width="*" IsReadOnly="True">
+                    <DataGridTextColumn.CellStyle>
+                        <Style TargetType="DataGridCell">
+                            <Setter Property="Background" Value="LightBlue"/>
+                        </Style>
+                    </DataGridTextColumn.CellStyle>
+                    <DataGridTextColumn.HeaderStyle>
+                        <Style TargetType="DataGridColumnHeader">
+                            <Setter Property="FontWeight" Value="Bold"/>
+                        </Style>
+                    </DataGridTextColumn.HeaderStyle>
+                </DataGridTextColumn>
+                <DataGridTextColumn Header="Data" Binding="{Binding Path=ScoreDate, StringFormat=\{0:yyyy-MM-dd\}}" IsReadOnly="True"/>
+                                                                                <!--StringFormat=\{0:yyyy-MM-dd HH:mm:ss\}-->
+            </DataGrid.Columns>
+            <!--<DataGrid.Columns>
+                <DataGridTextColumn Header="Names" Binding="{Binding Path=Name}" FontWeight="Bold">
+                    <DataGridTextColumn.CellStyle>
+                        <Style TargetType="DataGridCell">
+                            <Setter Property="Background" Value="LightBlue"/>
+                        </Style>
+                    </DataGridTextColumn.CellStyle>
+                    <DataGridTextColumn.HeaderStyle>
+                        <Style TargetType="DataGridColumnHeader">
+                            <Setter Property="FontWeight" Value="Bold"/>
+                        </Style>
+                    </DataGridTextColumn.HeaderStyle>
+                </DataGridTextColumn>
+                <DataGridTextColumn Header="Wiek" Binding="{Binding Path=Age}"/>
+                <DataGridComboBoxColumn Header="Sex"
+                                                    x:Name="ComboBoxColumnSex" 
+                                                    SelectedValueBinding ="{Binding Path=GenderType}"/>
+                <DataGridTextColumn Header="e-mail" Binding="{Binding Path=Email}"/>
+                <DataGridHyperlinkColumn Header="www" Binding="{Binding Path=Website}"/>
+                <DataGridCheckBoxColumn Header="Newsletter" Binding="{Binding Path=IsSuscribedToNewsletter}"/>
+                <DataGridTemplateColumn Header="Image">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <Image Source="{Binding Path=Image}"/>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+
+            </DataGrid.Columns>
+            <DataGrid.RowStyle>
+                <Style TargetType="DataGridRow">
+                    <Setter Property="Padding" Value="10"/>
+                </Style>
+            </DataGrid.RowStyle>
+            <DataGrid.RowDetailsTemplate>
+                <DataTemplate>
+                    <TextBlock Text="{Binding Path=AditionalDescription}"/>
+                </DataTemplate>
+            </DataGrid.RowDetailsTemplate>-->
+        </DataGrid>
+
+        <!--<TextBlock Padding="10" FontSize="30" HorizontalAlignment="Center">
             Lista Top 10
         </TextBlock>
         <TextBlock Padding="10" FontSize="20" HorizontalAlignment="Center" Text="Lp, Nickname, Wynik, Data" />
@@ -23,7 +104,7 @@
             <Label Padding="10" Content="08 , ..."  />
             <Label Padding="10" Content="09 , ..."  />
             <Label Padding="10" Content="10 , ..."  />
-        </WrapPanel>
+        </WrapPanel>-->
 
     </StackPanel>
 </Window>
